@@ -1,7 +1,22 @@
+# Python cache
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+venv/
+.env/
+.venv/
+*.env
+
+# Jupyter
 .ipynb_checkpoints/
-.env
-*.pkl
-*.pt
-*.bin
-models/
+
+# Data & modèles lourds (on garde des .gitkeep pour les dossiers vides)
+data/raw/*
+data/processed/*
+models/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
