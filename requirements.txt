@@ -1,0 +1,17 @@
+pandas
+numpy
+scikit-learn
+transformers
+peft
+bitsandbytes
+datasets
+accelerate
+faiss-cpu
+fastapi
+uvicorn
+gradiov
+mlflow
+wandb
+evidently
+pandas-profiling
+sweetviz
